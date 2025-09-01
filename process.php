@@ -4,8 +4,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST["email"];
 
     $servername = "127.0.0.1";
-    $username   = "root";
-    $password   = "root";
+    $username   = "phpuser";
+    $password   = "senha123";
     $dbname     = "aws_db";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
