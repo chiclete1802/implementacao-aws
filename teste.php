@@ -4,8 +4,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 $servername = "127.0.0.1";
-$username   = "root";
-$password   = "root";
+$username   = "phpuser";
+$password   = "senha123";
 $dbname     = "aws_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
